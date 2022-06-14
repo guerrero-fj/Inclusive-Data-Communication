@@ -1,2 +1,1 @@
-# Tech_platforms Overview
- 
+# Tech_platforms 

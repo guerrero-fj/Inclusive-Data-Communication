@@ -1,4 +1,3 @@
-
 # Brainstorming
 
  In this [[Brainstorming]] we will discuss ideas for the first [[Prototypes]] leading to the development of our [[PRODUCTS]], for both the [[Prototypes]] and [[Release_version]].

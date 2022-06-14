@@ -1,6 +1,1 @@
-# Francisco J. Guerrero Overview
- 
-```ccard
-type: folder_brief_live
-```
- 
+# Francisco J. Guerrero 
