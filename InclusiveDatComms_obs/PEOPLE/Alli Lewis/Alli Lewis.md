@@ -1,6 +1,4 @@
 # Alli Lewis Overview
  
-```ccard
-type: folder_brief_live
-```
+[[Alli Lewis]] works for [[EXCHANGE]] and [[COMPASS]] as the outreach leader. Her input was suggested by [[James Stegen]]
  
