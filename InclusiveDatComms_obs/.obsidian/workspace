@@ -92,19 +92,19 @@
             }
           },
           {
-            "id": "e7eeda1ce5c2ba3c",
+            "id": "0bfda035ad68ccf3",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "c00f01a4e446308f",
   "lastOpenFiles": [
