@@ -1,0 +1,20 @@
+{
+  "sidebarCommands": [
+    {
+      "id": "obsidian-git:pull",
+      "name": "Obsidian Git: Pull",
+      "icon": "double-down-arrow-glyph"
+    },
+    {
+      "id": "obsidian-git:push2",
+      "name": "Obsidian Git: Push",
+      "icon": "double-up-arrow-glyph"
+    },
+    {
+      "id": "obsidian-citation-plugin:insert-markdown-citation",
+      "name": "Citations: Insert Markdown citation",
+      "icon": "enter"
+    }
+  ],
+  "hiddenCommands": []
+}
