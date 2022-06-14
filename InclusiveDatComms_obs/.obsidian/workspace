@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "adda06be30027a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "589583a520f81ae4",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d8bfe2fce1748f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a61bbfd2647e5ea9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17e1e92d53d7d326",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2b4ee2573c34d69",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d7d568a548a689af",
+    "type": "split",
+    "children": [
+      {
+        "id": "10020708babfb20d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "026acae5fadbceee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bf923fd34cc4801",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ae6697182df2debb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "589583a520f81ae4",
+  "lastOpenFiles": [
+    "PLATFORMS/Org_Platforms/Brainstorming/Brainstorming.md",
+    "PEOPLE/PEOPLE.md",
+    "PLATFORMS/Tech_platforms/Tech_platforms.md",
+    "PLATFORMS/Org_Platforms/Org_Platforms.md",
+    "WORKFLOWS/Lit_review/Lit_review.md",
+    "PEOPLE/Alli Lewis/Alli Lewis.md",
+    "PEOPLE/Amy Goldman/Amy Goldman.md",
+    "WORKFLOWS/WORKFLOWS.md",
+    "PRODUCTS/Release_version/Release_version.md",
+    "PRODUCTS/Prototypes/Prototypes.md"
+  ]
+}
