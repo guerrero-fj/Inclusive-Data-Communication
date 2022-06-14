@@ -9,6 +9,15 @@
         "state": {
           "type": "graph",
           "state": {}
+        "id": "c00f01a4e446308f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PEOPLE/Alli Lewis/Alli Lewis.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -113,5 +122,17 @@
     "WORKFLOWS/WORKFLOWS.md",
     "PRODUCTS/Release_version/Release_version.md",
     "PRODUCTS/Prototypes/Prototypes.md"
+  "active": "c00f01a4e446308f",
+  "lastOpenFiles": [
+    "PEOPLE/Alli Lewis/Alli Lewis.md",
+    "PEOPLE/Amy Goldman/Amy Goldman.md",
+    "PEOPLE/PEOPLE.md",
+    "WORKFLOWS/WORKFLOWS.md",
+    "PRODUCTS/Release_version/Release_version.md",
+    "PRODUCTS/Prototypes/Prototypes.md",
+    "PRODUCTS/PRODUCTS.md",
+    "PLATFORMS/PLATFORMS.md",
+    "PLATFORMS/Tech_platforms/Teams/Teams.md",
+    "PLATFORMS/Tech_platforms/RStudio/RStudio.md"
   ]
 }
