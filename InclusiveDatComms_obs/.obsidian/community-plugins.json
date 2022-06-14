@@ -5,5 +5,7 @@
   "obsidian-tasks-plugin",
   "calendar",
   "obsidian-git",
-  "customizable-sidebar"
+  "customizable-sidebar",
+  "obsidian-citation-plugin",
+  "obsidian-zotero-desktop-connector"
 ]

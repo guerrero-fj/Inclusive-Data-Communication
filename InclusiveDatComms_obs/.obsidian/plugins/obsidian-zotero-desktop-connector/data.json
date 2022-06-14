@@ -1,0 +1,15 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Format #1",
+      "format": "formatted-citation"
+    }
+  ],
+  "exportFormats": [],
+  "shouldShowCiteSuggest": true
+}
