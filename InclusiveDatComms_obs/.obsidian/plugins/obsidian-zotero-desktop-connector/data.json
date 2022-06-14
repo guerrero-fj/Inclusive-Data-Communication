@@ -7,8 +7,8 @@
   "citeFormats": [
     {
       "name": "APA-7",
-      "format": "pandoc",
-      "brackets": true
+      "format": "formatted-citation",
+      "cslStyle": "american-physiological-society"
     }
   ],
   "exportFormats": [],

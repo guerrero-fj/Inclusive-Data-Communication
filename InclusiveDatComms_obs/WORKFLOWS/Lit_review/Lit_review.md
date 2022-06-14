@@ -7,5 +7,5 @@ output:
 In [[Lit_review]] we will compile main ideas and resources from the literature in preparation for the [[Brainstorming]] session 
 
 Concepts to dive in: 
-Decolonizing: [@phillips2021; @tuhiwaismith2021]
- 
+Decolonizing: 
+ Stories: (Duarte & Belarde-Lewis, 2015; Phillips, 2021; Windchief & Pedro, 2019)
