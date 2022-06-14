@@ -3,5 +3,6 @@
   "urlMode": "standard",
   "glassBg": false,
   "shouldAutoCheck": true,
-  "pickyMode": false
+  "pickyMode": true,
+  "staticLanguage": "en"
 }
