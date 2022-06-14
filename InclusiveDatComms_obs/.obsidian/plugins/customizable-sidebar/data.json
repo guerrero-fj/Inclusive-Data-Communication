@@ -11,8 +11,8 @@
       "icon": "double-up-arrow-glyph"
     },
     {
-      "id": "obsidian-citation-plugin:insert-markdown-citation",
-      "name": "Citations: Insert Markdown citation",
+      "id": "obsidian-zotero-desktop-connector:zdc-APA-7",
+      "name": "Zotero Integration: APA-7",
       "icon": "enter"
     }
   ],
