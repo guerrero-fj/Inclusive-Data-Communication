@@ -2,5 +2,5 @@
 In [[Lit_review]] we will compile main ideas and resources from the literature in preparation for the [[Brainstorming]] session 
 
 Concepts to dive in: 
-Decolonizing: 
+Decolonizing: [@phillips2021; @tuhiwaismith2021]
  
