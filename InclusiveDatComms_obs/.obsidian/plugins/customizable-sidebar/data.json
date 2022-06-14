@@ -14,6 +14,11 @@
       "id": "obsidian-zotero-desktop-connector:zdc-APA-7",
       "name": "Zotero Integration: APA-7",
       "icon": "enter"
+    },
+    {
+      "id": "obsidian-git:commit-specified-message",
+      "name": "Obsidian Git: Commit all changes with specific message",
+      "icon": "blocks"
     }
   ],
   "hiddenCommands": []
