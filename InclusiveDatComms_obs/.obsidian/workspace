@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "adda06be30027a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "c00f01a4e446308f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PEOPLE/Alli Lewis/Alli Lewis.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d8bfe2fce1748f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a61bbfd2647e5ea9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17e1e92d53d7d326",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2b4ee2573c34d69",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d7d568a548a689af",
+    "type": "split",
+    "children": [
+      {
+        "id": "10020708babfb20d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "026acae5fadbceee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PEOPLE/Alli Lewis/Alli Lewis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bf923fd34cc4801",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e7eeda1ce5c2ba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c00f01a4e446308f",
+  "lastOpenFiles": [
+    "PEOPLE/Alli Lewis/Alli Lewis.md",
+    "PEOPLE/Amy Goldman/Amy Goldman.md",
+    "PEOPLE/PEOPLE.md",
+    "WORKFLOWS/WORKFLOWS.md",
+    "PRODUCTS/Release_version/Release_version.md",
+    "PRODUCTS/Prototypes/Prototypes.md",
+    "PRODUCTS/PRODUCTS.md",
+    "PLATFORMS/PLATFORMS.md",
+    "PLATFORMS/Tech_platforms/Teams/Teams.md",
+    "PLATFORMS/Tech_platforms/RStudio/RStudio.md"
+  ]
+}
