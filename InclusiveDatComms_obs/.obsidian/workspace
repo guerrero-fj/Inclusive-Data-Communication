@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WORKFLOWS/Lit_review/Lit_review.md",
+            "file": "Tools/Lit_review/Stories.md",
             "mode": "source",
             "source": false
           }
@@ -64,20 +64,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f48ddffa1375cf48",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "ee1b71e256b8c24f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WORKFLOWS/Lit_review/Lit_review.md",
+                "file": "Tools/Lit_review/Stories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,24 +90,33 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "08b970bc865b823b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 126.20006561279297
+    "width": 332.5042724609375
   },
   "active": "74a62a4e2f6278d0",
   "lastOpenFiles": [
-    "WORKFLOWS/Lit_review/Lit_review.md",
+    "Tools/Lit_review/Stories.md",
+    "Tools/Lit_review/Decolonizing.md",
+    "Tools/Lit_review/Lit_review.md",
     "WORKFLOWS/WORKFLOWS.md",
+    "PLATFORMS/PLATFORMS.md",
+    "PEOPLE/PEOPLE.md",
     "PRODUCTS/Release_version/Release_version.md",
     "PRODUCTS/Prototypes/Prototypes.md",
     "PRODUCTS/PRODUCTS.md",
-    "PLATFORMS/PLATFORMS.md",
-    "PLATFORMS/Tech_platforms/Tech_platforms.md",
-    "PEOPLE/Tom Elliot/Tom Elliot.md",
-    "PEOPLE/Sammi Grieger/Sammi Grieger.md",
-    "PEOPLE/Matt Kauffman/Matt Kauffman.md"
+    "PLATFORMS/Tech_platforms/Tech_platforms.md"
   ]
 }

@@ -1,4 +1,7 @@
 {
-  "baseFontSize": 12,
-  "interfaceFontFamily": "Calibri"
+  "baseFontSize": 14,
+  "interfaceFontFamily": "Calibri",
+  "cssTheme": "Obsidian Nord",
+  "theme": "obsidian",
+  "translucency": false
 }
