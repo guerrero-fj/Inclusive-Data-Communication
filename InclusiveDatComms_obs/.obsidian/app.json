@@ -3,5 +3,7 @@
   "livePreview": true,
   "spellcheckDictionary": [
     "governance"
-  ]
+  ],
+  "fileSortOrder": "alphabetical",
+  "alwaysUpdateLinks": true
 }

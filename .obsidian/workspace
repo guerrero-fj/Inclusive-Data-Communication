@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "20958ec6ea581c40",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5850fb17b653efa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "InclusiveDatComms_obs/TOOLS/Lit_review/Lit_review.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0beec52116af93f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "4186d61e97554937",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03705bc0fcbb2c79",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "869e425561588847",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4ea5673d16c8736b",
+    "type": "split",
+    "children": [
+      {
+        "id": "46b74de451888555",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c640a7721c23e49",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "InclusiveDatComms_obs/TOOLS/Lit_review/Lit_review.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "45c30c085085b5f3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b5850fb17b653efa",
+  "lastOpenFiles": [
+    "InclusiveDatComms_obs/TOOLS/Lit_review/Lit_review.md",
+    "InclusiveDatComms_obs/TOOLS/TOOLS.md",
+    "InclusiveDatComms_obs/PRODUCTS/Prototypes/Prototypes.md",
+    "InclusiveDatComms_obs/PEOPLE/Michael Buck/Michael Buck.md",
+    "InclusiveDatComms_obs/PLATFORMS/Org_Platforms/Org_Platforms.md",
+    "InclusiveDatComms_obs/PLATFORMS/Org_Platforms/University of Washington/University of Washington.md",
+    "InclusiveDatComms_obs/PLATFORMS/Org_Platforms/Heritage University/Heritage University.md",
+    "Heritage University.md",
+    "InclusiveDatComms_obs/PEOPLE/James Stegen/James Stegen.md",
+    "InclusiveDatComms_obs/PLATFORMS/Org_Platforms/Brainstorming/Brainstorming.md"
+  ]
+}

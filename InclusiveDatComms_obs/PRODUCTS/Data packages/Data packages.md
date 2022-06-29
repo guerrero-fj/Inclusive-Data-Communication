@@ -1,0 +1,3 @@
+# Data packages 
+
+[[Data packages]] are datasets that are stored in a way that both [[PEOPLE]] and machines can find them, access them, integrate them, and (re)use the information. More importantly, data packages are the nodes of a larger network of datasets linked across the web. Metadata (or data about the data) are the fabric that links dataset across the network. In fact, metadata stores information by using a standardized language, which in the case of [[ESS-DIVE]] , these languages are the Ecological Metadata Language (EML), developed for the Ecology discipline and the JSON-LD, which is a human and machine-readable language. (Hendrix et al., n.d.)

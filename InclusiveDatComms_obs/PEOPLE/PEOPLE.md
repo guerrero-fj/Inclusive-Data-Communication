@@ -1,4 +1,6 @@
-# PEOPLE Overview
+# PEOPLE 
+[[PEOPLE]] use [[PLATFORMS]] to develop [[PRODUCTS]] by creating and completing multiple [[TASKS]] using different [[TOOLS]] and by sharing [[Workflows]]
+
 The initial team includes: 
 
 [[Brainstorming]] session:

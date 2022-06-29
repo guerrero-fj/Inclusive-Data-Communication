@@ -4,15 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "74a62a4e2f6278d0",
+        "id": "684ebf41ca2f5c06",
         "type": "leaf",
+        "dimension": 30.869565217391305,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tools/Lit_review/Stories.md",
+            "file": "PLATFORMS/Tech_platforms/Tech_platforms.md",
             "mode": "source",
             "source": false
           }
+        }
+      },
+      {
+        "id": "b8243e0e5cc77d8f",
+        "type": "leaf",
+        "dimension": 69.1304347826087,
+        "state": {
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Lit_review/Stories.md",
+                "file": "PLATFORMS/Tech_platforms/Tech_platforms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +109,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 332.5042724609375
+    "width": 332.5042724609375,
+    "collapsed": true
   },
-  "active": "74a62a4e2f6278d0",
+  "active": "684ebf41ca2f5c06",
   "lastOpenFiles": [
-    "Tools/Lit_review/Stories.md",
-    "Tools/Lit_review/Decolonizing.md",
-    "Tools/Lit_review/Lit_review.md",
-    "WORKFLOWS/WORKFLOWS.md",
+    "PLATFORMS/Tech_platforms/Tech_platforms.md",
+    "PLATFORMS/Org_Platforms/Brainstorming/Brainstorming.md",
+    "PRODUCTS/Assets/Assets.md",
+    "PRODUCTS/Assets/visual/visual.md",
+    "PLATFORMS/Tech_platforms/PowerPoint/PowerPoint.md",
+    "PRODUCTS/PRODUCTS.md",
     "PLATFORMS/PLATFORMS.md",
     "PEOPLE/PEOPLE.md",
-    "PRODUCTS/Release_version/Release_version.md",
-    "PRODUCTS/Prototypes/Prototypes.md",
-    "PRODUCTS/PRODUCTS.md",
-    "PLATFORMS/Tech_platforms/Tech_platforms.md"
+    "FRAMEWORK/FRAMEWORK.md",
+    "TASKS/TASKS.md"
   ]
 }
