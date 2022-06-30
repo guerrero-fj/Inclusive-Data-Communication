@@ -1,4 +1,0 @@
-# MURAL 
-
-## Brainstorming session
-

@@ -1,4 +1,0 @@
-# Spatial sampling campaign 
-
-
-
