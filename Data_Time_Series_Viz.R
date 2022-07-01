@@ -25,7 +25,7 @@ file <- 'C:/Users/forb086/OneDrive - PNNL/Documents/GitHub/Inclusive-Data-Commun
 
 metadata_file <- 'C:/Users/forb086/OneDrive - PNNL/Documents/GitHub/Inclusive-Data-Communication/Inclusive-Data-Communication-Visualizations/RC2_Field_Metadata.csv'
 
-outdir <- 'C:/Users/forb086/OneDrive - PNNL/Documents/GitHub/Inclusive-Data-Communication/Inclusive-Data-Communication-Visualizations/data_time_series.pdf'
+outdir <- 'C:/Users/forb086/OneDrive - PNNL/Documents/GitHub/Inclusive-Data-Communication/Inclusive-Data-Communication-Visualizations/data_time_series_v3.pdf'
 
 # ================================= read file =================================
 
@@ -69,13 +69,14 @@ theme_set(
     axis.line.x = element_blank(),
     axis.ticks.x = element_blank(),
     axis.text.y = element_text(angle = 90),
-    axis.title.y = element_text(size = 11, angle = 90, vjust = 3)
+    axis.title.y = element_text(size = 11, angle = 90, vjust = 3),
+    axis.title.x = element_blank()
   )
 )
 
 # ================================= plot ================================
 
-colors <- mako(2, begin = 0.3,end = 0.7)
+colors <- viridis(2, begin = 0.3,end = 0.7)
 
 
 dic <- ggplot(tidy, aes(x=Date)) +
@@ -83,8 +84,7 @@ dic <- ggplot(tidy, aes(x=Date)) +
   scale_x_date('Date', date_breaks = "1 month", date_labels = "%b") +
   theme(axis.text.x = element_blank(),
         panel.grid.minor = element_blank(),
-        legend.position = 'none',
-        axis.title.x = element_blank()) +
+        legend.position = 'none') +
   ylab('Dissolved Inorganic\nCarbon (mg/L)')+
   scale_color_manual(values = colors, name = 'Site Location')+
   scale_fill_manual(values = colors, name = 'Site Location') 
@@ -94,8 +94,7 @@ tn <- ggplot(tidy, aes(x=Date)) +
   scale_x_date('Date', date_breaks = "1 month", date_labels = "%b %Y") +
   theme(axis.text.x = element_blank(),
         panel.grid.minor = element_blank(),
-        legend.position = 'none',
-        axis.title.x = element_blank()) +
+        legend.position = 'none') +
   ylab('Total Nitrogen\n(mg/L)')+
   scale_color_manual(values = colors, name = 'Site Location')+
   scale_fill_manual(values = colors, name = 'Site Location')
@@ -103,34 +102,19 @@ tn <- ggplot(tidy, aes(x=Date)) +
 npoc <- ggplot(tidy, aes(x=Date)) +
   geom_smooth(data = tidy, aes(y=NPOC, color = River_Location, fill = River_Location), se = T, alpha = 0.2)+
   scale_x_date('Date', date_breaks = "1 month", date_labels = "%B") +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5),
-        panel.grid.minor = element_blank(),
-        axis.title.x = element_text(angle = 180)) +
+  theme(axis.text.x = element_text(angle = 90, vjust=0.5, hjust = 0),
+        panel.grid.minor = element_blank()) +
   ylab('Dissolved Organic\nCarbon (mg/L)')+
   scale_color_manual(values = colors, name = 'Site Location',
                      guide = guide_legend(direction = "vertical", title.position = "left", title.theme = element_text(angle = 90, hjust = 0.5, family = 'serif'),
                                           label.position="bottom", label.hjust = 0.5, label.vjust = 0.5, label.theme = element_text(angle = 90, family = 'serif')))+
-  scale_fill_manual(values = colors, name = 'Site Location') 
+  scale_fill_manual(values = colors, name = 'Site Location') +
+  ylim(1, 2.5)
 
-# , name = '                                                2021                                                               2022'
 
 legend <- get_legend(npoc)
 
 npoc <- npoc + theme(legend.position = 'none')
-
-
-year1 <- ggplot() + 
-  geom_text(aes(x=0, y=0, label = "bold(2021)"), 
-            parse = TRUE, size = 6, hjust = -1, 
-            family = 'serif'
-            ) +
-  theme_void()
-
-year2 <- ggplot() + 
-  geom_text(aes(x=0, y=0, label = "bold(2022)"), 
-            parse = TRUE, size = 6, hjust = -1,
-            family = 'serif') +
-  theme_void()
 
 
 smoosh <- ggarrange(
@@ -146,19 +130,7 @@ smoosh <- ggarrange(
   legend.grob = legend
 )
 
-smoosh <- smoosh + theme(plot.margin = unit(c(3, 3, 3, 3), "cm"),
-        panel.background = element_rect(color = 'white', fill = 'white'))
-
-# smoosh <-
-#   annotate_figure(smoosh,
-#                   bottom = text_grob(
-#                     c('2021', '2022'),
-#                     size = 14,
-#                     family = 'serif',
-#                     face = 'bold'
-#                   )) +
-#   theme(plot.margin = unit(c(1, 1, 1, 1), "cm"),
-#         panel.background = element_rect(color = 'white', fill = 'white'))
+smoosh <- smoosh + theme(plot.margin = unit(c(3, 3, 3, 3), "cm"))
 
 ggsave(
   outdir,
