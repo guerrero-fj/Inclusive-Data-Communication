@@ -62,7 +62,7 @@ theme_set(
     axis.text = element_text(size = 9),
     line = element_line(size = 0.05),
     axis.line = element_line(size = 0.5),
-    panel.background = element_rect(color = 'white'),
+    panel.background = element_rect(fill = NULL, color = 'white'),
     panel.border = element_blank(),
     plot.title = element_text(size = 25, face = 'bold'),
     axis.ticks.length = unit(.25, 'cm'),
@@ -104,7 +104,7 @@ npoc <- ggplot(tidy, aes(x=Date)) +
   scale_x_date('Date', date_breaks = "1 month", date_labels = "%B") +
   theme(axis.text.x = element_text(angle = 90, vjust=0.5, hjust = 0),
         panel.grid.minor = element_blank()) +
-  ylab('Dissolved Organic\nCarbon (mg/L)')+
+  ylab('Dissolved Organic*\nCarbon (mg/L)')+
   scale_color_manual(values = colors, name = 'Site Location',
                      guide = guide_legend(direction = "vertical", title.position = "left", title.theme = element_text(angle = 90, hjust = 0.5, family = 'serif'),
                                           label.position="bottom", label.hjust = 0.5, label.vjust = 0.5, label.theme = element_text(angle = 90, family = 'serif')))+
@@ -130,13 +130,23 @@ smoosh <- ggarrange(
   legend.grob = legend
 )
 
-smoosh <- smoosh + theme(plot.margin = unit(c(3, 3, 3, 3), "cm"))
+
+smoosh <-
+  annotate_figure(smoosh,
+                  right = text_grob(
+                    '* Dissolved Organic Carbon is commonly used terminology, however, we refer to this \nas non-purgeable organic carbon (NPOC) in the dataset',
+                    size = 8,
+                    family = 'serif',
+                    rot = 90
+                  )) +
+  theme(plot.margin = unit(c(3, 3, 3, 3), "cm"))
+
 
 ggsave(
   outdir,
   smoosh,
   device = 'pdf',
-  width = 9.5,
+  width = 10,
   height = 8,
   units = 'in',
   dpi = 300
