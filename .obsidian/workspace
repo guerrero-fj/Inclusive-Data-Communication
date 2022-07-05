@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "1aa6dc5359f9e404",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1896fbc49733a35",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e0f3a1a8d3e93eb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3818a12028dd2667",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79f792ef2190b39a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6d6dd924ab341b55",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "00b2ed9d56466081",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4cb4e05a4be9530",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73f471a281568155",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e1896fbc49733a35",
+  "lastOpenFiles": [
+    "InclusiveDatComms_obs/PRODUCTS/PRODUCTS.md"
+  ]
+}
