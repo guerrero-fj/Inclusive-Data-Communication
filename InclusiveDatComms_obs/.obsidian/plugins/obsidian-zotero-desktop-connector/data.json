@@ -7,8 +7,9 @@
   "citeFormats": [
     {
       "name": "APA-7",
-      "format": "formatted-citation",
-      "cslStyle": "american-physiological-society"
+      "format": "biblatex",
+      "cslStyle": "american-physiological-society",
+      "command": "autocite"
     }
   ],
   "exportFormats": [],
