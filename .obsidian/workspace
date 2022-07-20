@@ -7,8 +7,12 @@
         "id": "e1896fbc49733a35",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "InclusiveDatComms_obs/WORKFLOWS/Templates/Templates.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "InclusiveDatComms_obs/WORKFLOWS/Templates/Templates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -73,6 +78,14 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "6c41e306f8fa3402",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -84,6 +97,11 @@
   },
   "active": "e1896fbc49733a35",
   "lastOpenFiles": [
+    "InclusiveDatComms_obs/WORKFLOWS/Templates/Templates.md",
+    "InclusiveDatComms_obs/PRODUCTS/Prototypes/Prototypes.md",
+    "InclusiveDatComms_obs/PLATFORMS/PLATFORMS.md",
+    "InclusiveDatComms_obs/WORKFLOWS/WORKFLOWS.md",
+    "InclusiveDatComms_obs/WORKFLOWS/Assets/text/Data Packages Abstract.md",
     "InclusiveDatComms_obs/PLATFORMS/Org_Platforms/Brainstorming/Brainstorming.md",
     "InclusiveDatComms_obs/PRODUCTS/PRODUCTS.md"
   ]
