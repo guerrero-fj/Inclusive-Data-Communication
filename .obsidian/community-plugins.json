@@ -1,4 +1,7 @@
 [
+  "calendar",
+  "obsidian-citation-plugin",
   "folder-note-plugin",
-  "calendar"
+  "obsidian-languagetool-plugin",
+  "obsidian-tasks-plugin"
 ]

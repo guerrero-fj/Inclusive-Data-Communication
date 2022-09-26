@@ -5,11 +5,17 @@
   "graph",
   "backlink",
   "page-preview",
+  "templates",
   "note-composer",
   "command-palette",
   "editor-status",
+  "starred",
   "markdown-importer",
+  "outline",
   "word-count",
-  "open-with-default-app",
-  "file-recovery"
+  "slides",
+  "audio-recorder",
+  "file-recovery",
+  "publish",
+  "sync"
 ]
