@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "695339b501943497",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eb95860cf05f9cb",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97432260b8d253d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7163c03f5ddfabd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33f8a4bccd508457",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2229bd2dda4a0d5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43a9b6be13e2b4bc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "79ed10192daec279",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 211.49999809265137
+  },
+  "right": {
+    "id": "6f1ec7f15ae2f928",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d84cf55faaa4d7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc9b120e481b5176",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "904615c40666ed4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1b23e261eb98530",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "b09c349d5c9ae7d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c509a7628b5a5e62",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5000915527344
+  },
+  "active": "1eb95860cf05f9cb",
+  "lastOpenFiles": [
+    "PEOPLE/PEOPLE.md",
+    "TOOLS/TOOLS.md",
+    "PLATFORMS/Org_platforms/Org_platforms.md",
+    "PLATFORMS/Org_platforms/SFA Literature Meeting/SFA Literature Meeting.md",
+    "PLATFORMS/Org_platforms/SFA Literature Meeting.md",
+    "PLATFORMS/Tech_platforms/Tech_platforms.md",
+    "PLATFORMS/PLATFORMS.md",
+    "TASKS/TASKS.md",
+    "TOOLS/Lit_review/Lit_review.md",
+    "TOOLS/Lit_review/wollheim_etal_22_superlinear_scaling_river_networks_biogeochem.pdf"
+  ]
+}
